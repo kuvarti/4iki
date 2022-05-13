@@ -1,0 +1,33 @@
+Bu işlemler üç adımdan oluşur:
+
+-Yeni bir blok oluşturma
+-Doğrulama
+-Bilgilerin blok zincire kayıt edilmesi
+ERC-721 standardı üretilen NFT’lerin değiştirilemez ve benzersiz olmalarını sağlayan dijital imzalar oluşturur. 
+ Bu kartların el değiştirmesi halinde de üreticisi olarak pay almaktadır.
+ Her bir NFT’nin bu kimliği ile kolaylıkla kanıtlanabilir bir şekilde sahipliği de aynı şekilde korunabilmekte ve
+ispatlanabilmektedir.
+ Bu işlem için de hiçbir aracıya ihtiyaç duyulmaz
+Token IDLeri Farklı tutulan cüzdan aynı.
+
+Hangi ağ üzerinde kurulucak ?
+Yerine yenisi koyulmayacak değerlerdir.
+------------
+Hızlı ve az maliyetli olduğu için Akıllı kontratlar kullanımı.
+Dağınık ve Merkeziyetsiz olduğu için geriye dönük işlemler engellenir.
+Dijital ortamda kod bloklarıyla tutulması,
+Sözleşme içeriğinin şifrelenmiş olması,
+Geriye dönük düzenleme yapılmasını engellemesi,
+İnsan eliyle gerçekleşen hatalara izin vermemesi,
+Koşullara göre otomatik tetiklenmesi aksi taktirde hiç çalışmaması,
+Tarafların anonim olmasına izin vermesi,
+Akıllı sözleşmelerle;
+Sözleşme belirlenebilir.
+Peer to Peer (taraflar arası) işlemlerin yapılması,
+Noterlerin güvenilirliğini sağlama ve anlaşmazlıkları çözme görevini üstlenilmesi,
+Oylamalardaki güvensizliğe çözüm getirilmesi,
+Belirli şartlara göre sigortalama yapılması,
+Emlak piyasasında ipoteklemenin hızlandırılması ve güvence altına alınması,
+Endüstri kayıtlarının hızlıca oluşturulma ve güvende tutulması,
+Alım-satım işlemlerinin gerçekleştirmesi
+gibi problemlere alternatif çözümler üretilecektir. 
