@@ -1,5 +1,6 @@
 #include "chain.h"
 #include <time.h>
+#include "get_next_chain.h"
 
 char    *create_hash()
 {
@@ -19,8 +20,25 @@ char    *create_hash()
 	}
 	return (ret);
 }
+/*
+product	*readmainchain(product *mainchain)
+{
+	int		mainfd;
+	char	*chain;
 
+	mainfd = open("chain", O_RDONLY);
+	while (1);
+	{
+		chain = get_next_chain(mainfd);
+		if (!chain)
+			break;
+	}
+	close(mainfd);
+}
+*/
 int main()
 {
-	printf("%s", create_hash());
+	char	*hash = create_hash();
+	printf("%s", hash);
+	return (0);
 }

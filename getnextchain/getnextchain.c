@@ -81,14 +81,14 @@ char	*ft_read_to_left_str(int fd, char *kalan)
 char	*get_next_chain(int fd)
 {
 	char		*str;
-	static char	*kalan[10];
+	static char	*kalan;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (0);
-	kalan[fd] = ft_read_to_left_str(fd, kalan[fd]);
-	if (!kalan[fd])
+	kalan = ft_read_to_left_str(fd, kalan);
+	if (!kalan)
 		return (NULL);
-	str = ft_get_chain(kalan[fd]);
-	kalan[fd] = ft_new_left_str(kalan[fd]);
+	str = ft_get_chain(kalan);
+	kalan = ft_new_left_str(kalan);
 	return (str);
 }

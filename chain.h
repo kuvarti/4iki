@@ -5,19 +5,20 @@
 #include <string.h> 
 #include <stdio.h> 
 #include <unistd.h>
-/*
+
 typedef struct products{
-    struct products		front;
-    struct information	urun;
-    struct products		next;
+    struct products		*front;
+    struct information	*urun;
+    struct products		*next;
 }   product;
 
 typedef struct information{
-    struct information	front;
-    const char					*infoName;
-    const char					*info;
+    struct information	*front;
+	const char			*hash;
+    const char			*infoName;
+    const char			*info;
 }   info;
-*/
+
 char    *create_hash();
 
 #endif
