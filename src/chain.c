@@ -38,7 +38,10 @@ product	*readmainchain(product *mainchain)
 */
 int main()
 {
-	char	*hash = create_hash();
-	printf("%s", hash);
+	char	*hash;
+	
+	hash = malloc(20);
+	hash = create_hash();
+	printf("%s\n", hash);
 	return (0);
 }

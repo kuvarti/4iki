@@ -1,6 +1,6 @@
 INCLUDES = -Iincludes/.
 
-all: $(INCLUDES) hash creator
+all: $(INCLUDES) hashcreator
 
 $(INCLUDES):
 	mkdir -p includes
@@ -8,6 +8,9 @@ $(INCLUDES):
 	cp sqlite/sqlite3.h includes/.
 	cp chain.h includes/.
 
+hashcreator: $(INCLUDES)
+	gcc src/chain.c getnextchain/*.c $(INCLUDES) -o randomHashGenerator
+
 clean:
 	rm -rf includes
-	rm a.out
+	rm -f a.out randomHashGenerator
