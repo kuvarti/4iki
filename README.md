@@ -2,7 +2,7 @@
 ###### **Nusret Uzman, Ahmet Eryılmaz, Tarık Emir Aysoy**
 ###### #ACIKHACK2022, #TurkiyeAcikKaynakPlatformu
 \
-Elimizde çalışan bir demo yetiştiremedim ama bir demo için küçük parçacıklar hazırladık;
+Elimizde çalışan bir demo yetiştiremedik ama bir demo için küçük parçacıklar hazırladık;
 * Rastgele Hash üretmek için;
     ```
     make hashcreator
@@ -12,8 +12,10 @@ Elimizde çalışan bir demo yetiştiremedim ama bir demo için küçük parçac
     ```c
     make clean /* veya */ make fclean
     ```
+Ayrıca protatip bir SmartContract hazırlamaya çalıştık oda contract klasörürnün içinde bulabilirsiniz.
 
 ## Gerekli programlar.
 _Unix(macos, linux) sistemde kodlandı ve test edildi._
 * gcc
 * Makefile
+* Truffle
